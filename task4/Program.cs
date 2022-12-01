@@ -1,15 +1,8 @@
 ﻿Console.WriteLine("Insert number");
 int a = Convert.ToInt32(Console.ReadLine());
-if (a % 7 == 0)
+if (a % 7 == 0 && a % 23 == 0)
 {
-    if (a % 23 == 0)
-    {
-        Console.WriteLine("yes");
-    }
-    else
-    {
-        Console.WriteLine("no");
-    }
+    Console.WriteLine("yes");
 }
 else
 {
